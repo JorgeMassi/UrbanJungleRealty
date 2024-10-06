@@ -1,0 +1,73 @@
+| PMC Command | Usage |
+| --- | --- |
+| `Get-Help entityframework` | Displays information about entity framework commands. |
+| `Add-Migration <migration name>` | Creates a migration by adding a migration snapshot. |
+| `Remove-Migration` | Removes the last migration snapshot. |
+| `Update-Database` | Updates the database schema based on the last migration snapshot. |
+| `Script-Migration` | Generates a SQL script using all the migration snapshots. |
+| `Scaffold-DbContext` | Generates a DbContext and entity type classes for a specified database. This is called reverse engineering. |
+| `Get-DbContext` | Gets information about a DbContext type. |
+| `Drop-Database` | Drops the database. |
+
+
+CMD
+
+---
+dotnet ef migrations add ( name of migrations)
+
+dotnet ef database update
+
+powershell 
+
+ls
+cd
+
+angular
+
+Get-ExecutionPolicy -List
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+npm install -g @angular/cli
+ng version
+ng new (name angular project)
+cd angular project
+ng serve
+
+ng install bootstrap
+
+
+ng generate component ( name of component)
+
+ng generate
+
+Generates and/or modifies files based on a schematic.
+
+Commands:
+  ng generate <schematic>              Run the provided schematic. [default]  
+  ng generate app-shell                Generates an application shell for running a server-side version of an app.
+  ng generate application [name]       Generates a new basic application definition in the "projects" subfolder of the workspace. 
+
+  [aliases: app]  
+  ng generate class [name]             Creates a new, generic class definition in the given project.                 [aliases: cl]  
+  ng generate component [name]         Creates a new, generic component definition in the given project.              [aliases: c] 
+   ng generate config [type]            Generates a configuration file in the given project.
+  ng generate directive [name]         Creates a new, generic directive definition in the given project.              [aliases: d] 
+   ng generate enum [name]              Generates a new, generic enum definition in the given project.                 [aliases: e] 
+    ng generate environments             Generates and configures environment files for a project.
+  ng generate guard [name]             Generates a new, generic route guard definition in the given project.          [aliases: g]  
+  ng generate interceptor [name]       Creates a new, generic interceptor definition in the given project.
+  ng generate interface [name] [type]  Creates a new, generic interface definition in the given project.              [aliases: i]  
+  ng generate library [name]           Creates a new, generic library project in the current workspace.             [aliases: lib]  
+  ng generate module [name]            Creates a new, generic NgModule definition in the given project.               [aliases: m]  
+  ng generate pipe [name]              Creates a new, generic pipe definition in the given project.                   [aliases: p]  
+  ng generate resolver [name]          Generates a new, generic resolver definition in the given project.             [aliases: r]  
+  ng generate service [name]           Creates a new, generic service definition in the given project.                [aliases: s] 
+  ng generate service-worker           Pass this schematic to the "run" command to create a service worker
+  ng generate web-worker [name]        Creates a new, generic web worker definition in the given project.
+
+
+  to run at vscode
+
+  dotnet build 
+
+  dotnet watch -lp https
+  dotnet watch -lp http

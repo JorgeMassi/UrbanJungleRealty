@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{CA1DE86C-EDA8-4674-9F89-F9DB14E182E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F82907D1-3EFC-4EC3-A241-0B112172CE6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastruture", "Infrastruture", "{90255B48-7AB1-4A19-B397-EA1ADC7BE308}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E549F0EA-C78E-41F4-9440-99A176D25E50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{0C482BD7-0C57-467A-BB5C-641E9A8C1C04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution  Extras", "Solution  Extras", "{A522870D-2C39-426D-B9E5-431D4F3622AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrbanJungleRealty.Domain", "UrbanJungleRealty.Domain\UrbanJungleRealty.Domain.csproj", "{1ECA0E8D-E451-41B5-9E39-8FA6CDF514CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extra", "Extra\Extra.csproj", "{DD70DC9A-0D0F-4E6C-A170-2E10EC9B1E10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrbanJungleRealty.Application", "UrbanJungleRealty.Application\UrbanJungleRealty.Application.csproj", "{81F604AE-8FBC-4612-B450-51A13A0E9628}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{6FF5B609-C278-46F4-AB6B-C4FAAA567E06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC", "IoC", "{E6649FE1-E070-457E-8CFA-0251A1B44EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrbanJungleRealty.Infrastruture.IoC", "UrbanJungleRealty.Infrastruture.IoC\UrbanJungleRealty.Infrastruture.IoC.csproj", "{E920C813-A58A-4CF2-899D-85926EBEC1EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrbanJungleRealty.Infrastruture.Data", "UrbanJungleRealty.Infrastruture.Data\UrbanJungleRealty.Infrastruture.Data.csproj", "{68CB167B-3AC4-4E53-8519-4D7760A507C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UrbanJungleRealty.WebApi", "UrbanJungleRealty.WebApi\UrbanJungleRealty.WebApi.csproj", "{9EC259ED-5B51-4101-93B4-FE981489ABB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ECA0E8D-E451-41B5-9E39-8FA6CDF514CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ECA0E8D-E451-41B5-9E39-8FA6CDF514CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ECA0E8D-E451-41B5-9E39-8FA6CDF514CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ECA0E8D-E451-41B5-9E39-8FA6CDF514CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD70DC9A-0D0F-4E6C-A170-2E10EC9B1E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD70DC9A-0D0F-4E6C-A170-2E10EC9B1E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD70DC9A-0D0F-4E6C-A170-2E10EC9B1E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD70DC9A-0D0F-4E6C-A170-2E10EC9B1E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81F604AE-8FBC-4612-B450-51A13A0E9628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F604AE-8FBC-4612-B450-51A13A0E9628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F604AE-8FBC-4612-B450-51A13A0E9628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F604AE-8FBC-4612-B450-51A13A0E9628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E920C813-A58A-4CF2-899D-85926EBEC1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E920C813-A58A-4CF2-899D-85926EBEC1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E920C813-A58A-4CF2-899D-85926EBEC1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E920C813-A58A-4CF2-899D-85926EBEC1EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68CB167B-3AC4-4E53-8519-4D7760A507C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68CB167B-3AC4-4E53-8519-4D7760A507C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68CB167B-3AC4-4E53-8519-4D7760A507C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68CB167B-3AC4-4E53-8519-4D7760A507C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC259ED-5B51-4101-93B4-FE981489ABB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC259ED-5B51-4101-93B4-FE981489ABB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC259ED-5B51-4101-93B4-FE981489ABB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC259ED-5B51-4101-93B4-FE981489ABB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1ECA0E8D-E451-41B5-9E39-8FA6CDF514CD} = {CA1DE86C-EDA8-4674-9F89-F9DB14E182E4}
+		{DD70DC9A-0D0F-4E6C-A170-2E10EC9B1E10} = {A522870D-2C39-426D-B9E5-431D4F3622AE}
+		{81F604AE-8FBC-4612-B450-51A13A0E9628} = {F82907D1-3EFC-4EC3-A241-0B112172CE6F}
+		{6FF5B609-C278-46F4-AB6B-C4FAAA567E06} = {90255B48-7AB1-4A19-B397-EA1ADC7BE308}
+		{E6649FE1-E070-457E-8CFA-0251A1B44EAD} = {90255B48-7AB1-4A19-B397-EA1ADC7BE308}
+		{E920C813-A58A-4CF2-899D-85926EBEC1EE} = {E6649FE1-E070-457E-8CFA-0251A1B44EAD}
+		{68CB167B-3AC4-4E53-8519-4D7760A507C2} = {6FF5B609-C278-46F4-AB6B-C4FAAA567E06}
+		{9EC259ED-5B51-4101-93B4-FE981489ABB2} = {0C482BD7-0C57-467A-BB5C-641E9A8C1C04}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDAFF0EE-5D3B-4363-9A43-4C7A4C29D4B3}
+	EndGlobalSection
+EndGlobal
